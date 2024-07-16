@@ -24,6 +24,10 @@ public class Main {
 
         int result = subtractNum(9,4);
         System.out.println("The result is: " + result);
+
+        // Task 7
+
+        System.out.println(isStringLonger(5,"Grzejszczyk"));
     }
 
     private static void printGreeting (String name){
@@ -34,4 +38,9 @@ public class Main {
         return num1 - num2;
     }
 
-}
+    private static boolean isStringLonger (int num, String word) {
+        return word.length() > num;
+        }
+    }
+
+
