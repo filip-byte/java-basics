@@ -12,6 +12,11 @@ public class Main {
 
         boolean isLearningJava = true;
         System.out.println(isLearningJava);
+
+        String favouriteFilm = "Spider-Man";
+        System.out.println("My favourite film is " + favouriteFilm);
+        favouriteFilm = "Hannah Montana: The Movie";
+        System.out.println("My favourite film is " + favouriteFilm);
     }
 
 
