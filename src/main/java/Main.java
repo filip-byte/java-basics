@@ -21,10 +21,17 @@ public class Main {
         //task 5
         String firstName = "Filip";
         printGreeting(firstName);
+
+        int result = subtractNum(9,4);
+        System.out.println("The result is: " + result);
     }
 
     private static void printGreeting (String name){
         System.out.println("Hello " + name);
+    }
+
+    private static int subtractNum (int num1, int num2) {
+        return num1 - num2;
     }
 
 }
