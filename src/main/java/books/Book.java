@@ -3,10 +3,12 @@ package books;
 public class Book {
     private String title;
     private int pages;
+    private int currentPage;
 
     public Book(String title, int pages) {
         this.title = title;
         this.pages = pages;
+        currentPage = 1;
     }
 
     public String getTitle() {
