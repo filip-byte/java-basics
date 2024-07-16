@@ -33,8 +33,14 @@ public class Main {
 
         // Task 8
 
-        Book book = new Book("The Lord of The Rings", 9);
+        Book book = new Book("The Lord of The Rings", 523);
         System.out.println(book.getTitle());
+        System.out.println(book.getCurrentPage());
+        book.turnPage(50);
+        System.out.println(book.getCurrentPage());
+        book.turnPage(-10);
+        System.out.println(book.getCurrentPage());
+
     }
 
     private static void printGreeting (String name){

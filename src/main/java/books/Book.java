@@ -19,11 +19,23 @@ public class Book {
         return this.pages;
     }
 
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }
 
     public void setPages(int pages) {
         this.pages = pages;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int turnPage(int num) {
+        return currentPage+= num;
     }
 }
