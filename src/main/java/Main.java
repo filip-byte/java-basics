@@ -17,8 +17,14 @@ public class Main {
         System.out.println("My favourite film is " + favouriteFilm);
         favouriteFilm = "Hannah Montana: The Movie";
         System.out.println("My favourite film is " + favouriteFilm);
+
+        //task 5
+        String firstName = "Filip";
+        printGreeting(firstName);
     }
 
-
+    private static void printGreeting (String name){
+        System.out.println("Hello " + name);
+    }
 
 }
