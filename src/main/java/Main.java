@@ -9,6 +9,9 @@ public class Main {
         System.out.println("I was born in the year " + birthYear);
 
         double pi = 3.14;
+
+        boolean isLearningJava = true;
+        System.out.println(isLearningJava);
     }
 
 
