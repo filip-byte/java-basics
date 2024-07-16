@@ -4,6 +4,11 @@ public class Main {
 
         String greeting = "Hello Filip";
         System.out.println(greeting);
+
+        int birthYear = 1998;
+        System.out.println("I was born in the year " + birthYear);
+
+        double pi = 3.14;
     }
 
 
