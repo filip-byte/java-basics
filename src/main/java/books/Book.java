@@ -1,6 +1,16 @@
 package books;
 
 public class Book {
+
+    public static void main(String[] args) {
+        Book book = new Book("Spider-Man",10);
+        System.out.println(book.getTitle());
+        System.out.println(book.getCurrentPage());
+        book.turnPage(5);
+        System.out.println(book.getCurrentPage());
+        System.out.println(book.getTitle());
+    }
+
     private String title;
     private int pages;
     private int currentPage;
