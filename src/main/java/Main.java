@@ -1,3 +1,5 @@
+import books.Book;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -28,6 +30,11 @@ public class Main {
         // Task 7
 
         System.out.println(isStringLonger(5,"Grzejszczyk"));
+
+        // Task 8
+
+        Book book = new Book("The Lord of The Rings", 9);
+        System.out.println(book.getTitle());
     }
 
     private static void printGreeting (String name){
